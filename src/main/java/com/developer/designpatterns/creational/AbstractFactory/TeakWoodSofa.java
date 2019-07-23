@@ -3,27 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Creational.AbstractFactory;
+package com.developer.designpatterns.creational.AbstractFactory;
 
 /**
- *
+ * Source: https://refactoring.guru/design-patterns/abstract-factory
  * @author Venkat_Nagarajan
  */
-public class ModernChair implements Chair{
+public class TeakWoodSofa implements Sofa{
 
     @Override
     public void type() {
-        System.out.println("Modern Chair with sleak design");
+        System.out.println("Teak wood sofa.");
     }
 
     @Override
     public void hasLegs() {
-        System.out.println("Nope. No legs. Modern sleak design");
+        System.out.println("With 4 legs");
     }
 
     @Override
     public void sitOnCapacity() {
-        System.out.println("Comfortable seating for 1 with arm rests");
+        System.out.println("Seating capacity of 3");
     }
     
 }

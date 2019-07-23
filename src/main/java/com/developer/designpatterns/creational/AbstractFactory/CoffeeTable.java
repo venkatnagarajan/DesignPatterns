@@ -3,17 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Creational.FactoryPattern;
+package com.developer.designpatterns.creational.AbstractFactory;
 
 /**
- *
+ * Source: https://refactoring.guru/design-patterns/abstract-factory
  * @author Venkat_Nagarajan
  */
-public class VeggiePizza extends Pizza{
-
-    @Override
-    public void addIngredients() {
-        System.out.println("Add ingredients for Veggie Pizza");
-    }
-    
+public interface CoffeeTable {
+    public void type();
+    public void plankType();
 }
